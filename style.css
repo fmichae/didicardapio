@@ -1,0 +1,87 @@
+@font-face {
+  font-family: fulbo-tano;
+  src: url('fulbo-tano.otf') format('opentype');
+}
+@font-face {
+  font-family: poppins;
+  src: url('Poppins-regular.ttf') format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+.cardapio{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.banner img{
+  margin: 0 auto;
+}
+
+.linha {
+  height: 8px;
+  width: 237px;
+  background-color: #FC1923;
+  border-radius: 50px;
+  margin-top:50px;
+}
+
+h1{
+  font-family: fulbo-tano;
+}
+
+.cardapio h1{
+  margin-top: 13px;
+  color:#FC1923;
+}
+
+.produtos{
+  width: 432px
+}
+
+.produtos img{
+  height: 30px;
+  display: inline;
+}
+
+.produtos h3{
+  display: inline;
+  font-family: fulbo-tano;
+}
+
+.produtos p{
+  font-family: poppins;
+  margin-left: 35px;
+  
+}
+
+.button{
+  background-color: #FC1923;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 104px;
+  text-align: center;
+  margin-left: 316px;
+}
